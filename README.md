@@ -1,12 +1,16 @@
 # llm-python
 
-A set of instructional materials, code samples and Python scripts featuring LLMs (GPT etc) through interfaces like llamaindex, langchain, Chroma (Chromadb), Pinecone etc. Mainly used to store reference code for my LangChain tutorials on YouTube.
+A set of instructional materials, code samples and Python scripts featuring LLMs (GPT etc) through interfaces like llamaindex, LangChain, OpenAI's Agent SDK, Chroma (Chromadb), Pinecone etc.
+
+The code examples are aimed at helping you learn how to build LLM applications and Agents using Python. The code is designed to be self-contained and singularly focused, so you can pick and choose the usage patterns most relevant to your needs.
+
+Many examples have accompanying videos [on my YouTube channel](https://www.youtube.com/samuelchan).
 
 <!-- <img src="assets/youtube.png" width="50%" alt="LangChain youtube tutorials" /> -->
 
 ![LangChain youtube tutorials](assets/llmseries.png)
 
-Learn LangChain from my YouTube channel (~8 hours of LLM hands-on building tutorials); Each lesson is accompanied by the corresponding code in this repo and is designed to be self-contained -- while still focused on some key concepts in LLM (large language model) development and tooling.
+Learn LangChain from my YouTube channel (~9 hours of LLM hands-on building tutorials); Each lesson is accompanied by the corresponding code in this repo and is designed to be self-contained -- while still focused on some key concepts in LLM (large language model) development and tooling.
 
 Feel free to pick and choose your starting point based on your learning goals:
 
@@ -29,11 +33,31 @@ Feel free to pick and choose your starting point based on your learning goals:
 
 The full lesson playlist can be found [here](https://www.youtube.com/playlist?list=PLXsFtK46HZxUQERRbOmuGoqbMD-KWLkOS).
 
-## Update: Feb 5th 2025
+## Updates
 
-I've pushed 4 new scripts to the repo, 15_sql.py to 18_chroma.py, which are intended to be used as code reference to this public course:
+### Multi-Agent and Agentic Patterns Update: May 3rd 2025
 
-- [Building search engines in the age of AI](https://sectors.app/bulletin/ai-search)
+I've pushed 6 new scripts to the repo, `19_agents_handsoff.py` to `24_agents_guardrails.py`, intended to be used as code reference to this public course:
+
+- [Agentic Patterns: two day workshop](https://supertype.ai/events/agentic-patterns)
+
+These additions to the repo illustrates 6 key patterns in building AI Agents (especially multi-agent systems) and use the latest version of OpenAI's Agent SDK (`openai-agents`) as of May 2025.
+
+These 6 Agentic Patterns are (in order of appearance in this repo):
+
+- 1 The Hand-off and Delegation Pattern (`19_agents_handsoff.py`)
+- 2 The Tool-Use and Function Calling Pattern (`20_agents_tooluse.py`)
+- 3 The Deterministic and Sequential Chain Pattern (`21_agents_deterministic.py`)
+- 4 The Judge and Critic Pattern (`22_agents_critic.py`)
+- 5 The Parallelization Pattern (`23_agents_parallelization.py`)
+- 6 The Guardrails Pattern (`24_agents_guardrails.py`)
+
+### Update: Feb 5th 2025
+
+I've pushed 4 new scripts to the repo, `15_sql.py` to `18_chroma.py`, which are intended to be used as code reference to this public course:
+
+- [Building search engines in the age of AI: full course materials (free)](https://sectors.app/bulletin/ai-search)
+- [Building search engines in the age of AI: two day workshop](https://supertype.ai/events/ai-search)
 
 Additionally, I'm now also hosting example code in this repo for the following [Generative AI Series](https://docs.sectors.app/recipes/generative-ai-python/01-background) by Sectors.
 
@@ -56,18 +80,29 @@ Both of these series are public and free to access. The code in this repo is int
 3. Some sample data are provided to you in the `news` foldeer, but you can use your own data by replacing the content (or adding to it) with your own text files.
 4. Create a `.env` file which contains your OpenAI API key. You can get one from [here](https://beta.openai.com/). `HUGGINGFACEHUB_API_TOKEN` and `PINECONE_API_KEY` are optional, but they are used in some of the lessons.
    - [Lesson 10](./11_worldbuilding.py) uses Cohere and Stability AI, both of which offers a free tier (no credit card required). You can add the respective keys as `COHERE_API_KEY` and `STABILITY_API_KEY` in the `.env` file.
+   - Some of the most advanced examples that feature tool-use, function-calling Agents will require you working with a real-world financial data API. My team at Supertype and I built a LLM-first financial API platform called [Sectors](https://sectors.app). You can register for a free account, read our [API documentation and Generative AI 5-course series](https://docs.sectors.app/recipes/generative-ai-python/01-background) to learn how to use the API to build sophisticated LLM application. Examples of these applications are all in the repo.
 
-The `.env` file should look like this:
+Your `.env` file should look like this:
 
 ```
-OPENAI_API_KEY=your_api_key_here
+# recommended
+OPENAI_API_KEY=...
 
-# optionals (not required for most of the series)
-HUGGINGFACEHUB_API_TOKEN=your_api_token_here
-PINECONE_API_KEY=your_api_key_here
+# optionals but useful
+SECTORS_API_KEY=...
+GROQ_API_KEY=...
+
+# completely optional (pick and choose based on your needs)
+HUGGINGFACEHUB_API_TOKEN=...
+PINECONE_API_KEY=...
+DEEPSEEK_API_KEY=...
+COHERE_API_KEY=...
+STABILITY_API_KEY=...
 ```
 
-HuggingFace and Pinecone are optional but is recommended if you want to use the Inference API and explore those models outside of the OpenAI ecosystem. This is demonstrated in Part 3 of the tutorial series. 5. Run the examples in any order you want. For example, `python 6_team.py` will run the website Q&A example, which uses GPT-3 to answer questions about a company and the team of people working at Supertype.ai. Watch the corresponding video to follow along each of the examples.
+HuggingFace and Pinecone are optional but is recommended if you want to use the Inference API and explore those models outside of the OpenAI ecosystem. This is demonstrated in Part 3 of the tutorial series.
+
+5. Run the examples in any order you want. For example, `python 6_team.py` will run the website Q&A example, which uses GPT-3 to answer questions about a company and the team of people working at Supertype.ai. Watch the corresponding video to follow along each of the examples.
 
 ### Dependencies
 

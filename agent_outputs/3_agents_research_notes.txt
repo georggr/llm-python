@@ -1,0 +1,115 @@
+Research on top market cap:
+Top companies: ['BBCA', 'BREN', 'TPIA']
+
+
+Company: BBCA
+**PT Bank Central Asia Tbk. (BBCA.JK)**
+
+- **Industry:** Financials
+- **Sub-Industry:** Banks
+- **Sector:** Banks
+- **Market Cap:** IDR 1,075,565,641,596,928
+- **Market Cap Rank:** 1
+- **Employees:** 24,685
+
+**Listing Details**
+
+- **Board:** Main
+- **Listing Date:** 31 May 2000
+
+**Contact Information**
+
+- **Address:** Menara BCA, Grand Indonesia, Jalan MH Thamrin No. 1, Jakarta 10310
+- **Phone:** 021-23588000
+- **Email:** investor_relations@bca.co.id
+- **Website:** [www.bca.co.id](http://www.bca.co.id)
+
+**Stock Information**
+
+- **Last Close Price:** IDR 8,725 (as of 29 April 2025)
+- **Daily Change:** -0.57%
+
+**Price History**
+
+- **YTD Low:** IDR 7,275 (8 April 2025)
+- **YTD High:** IDR 9,925 (3 January 2025)
+- **52-Week High:** IDR 10,950 (23 September 2024)
+- **All-Time High:** IDR 10,950 (23 September 2024)
+- **All-Time Low:** IDR 175 (8 June 2004)
+
+**ESG Score:** 21.5
+
+Feel free to ask if you need more information!
+
+2025-04-30T13:40:54.015290
+
+
+Company: BREN
+### PT Barito Renewables Energy Tbk. (BREN.JK)
+
+**Overview:**
+- **Listing Board:** Main
+- **Industry:** Electric Utilities
+- **Sub-Industry:** Electric Utilities
+- **Sector:** Infrastructures
+- **Sub-Sector:** Utilities
+- **Market Cap:** IDR 806,060,671,631,360
+- **Market Cap Rank:** 2
+
+**Contact Information:**
+- **Address:** Wisma Barito Pacific II, Lantai 23, Jl. Let. Jend. S. Parman Kav. 60, RT 010, RW 005, Slipi, Palmerah, Jakarta 11410, Indonesia
+- **Phone:** (021) 530 6711
+- **Email:** corpsec@baritorenewables.co.id
+- **Website:** [www.baritorenewables.co.id](http://www.baritorenewables.co.id)
+
+**Employment:**
+- **Number of Employees:** 638
+
+**Financial Highlights:**
+- **Listing Date:** 2023-10-09
+- **Last Close Price:** IDR 6,025 (as of 2025-04-29)
+- **Daily Close Change:** -0.41%
+
+**Price Information:**
+- **All Time Low:** IDR 975 (2023-10-09)
+- **All Time High:** IDR 12,200 (2024-05-17)
+- **Year-to-Date Low:** IDR 4,170 (2025-04-09)
+- **Year-to-Date High:** IDR 10,650 (2025-01-08)
+
+**ESG Score:**
+- **ESG Score:** 37.7
+
+If you need more information, feel free to ask!
+
+2025-04-30T13:40:59.185626
+
+
+Company: TPIA
+### PT Chandra Asri Pacific Tbk (TPIA.JK)
+
+- **Industry**: Chemicals
+- **Sub-Industry**: Basic Chemicals
+- **Sector**: Basic Materials
+- **Market Cap**: IDR 663,975,771,504,640
+- **Market Cap Rank**: 3
+- **Number of Employees**: 1,924
+- **Listing Date**: May 26, 2008
+- **Listing Board**: Development
+- **Latest Close Price**: IDR 7,675 (as of April 29, 2025)
+- **Daily Close Change**: -1.60%
+- **YTD Low**: IDR 5,275 (March 19, 2025)
+- **YTD High**: IDR 9,000 (February 5, 2025)
+- **52 Week High**: IDR 11,225 (August 7, 2024)
+- **All-Time High**: IDR 11,225 (August 7, 2024)
+- **All-Time Low**: IDR 73 (March 30, 2009)
+- **ESG Score**: 16.3
+
+#### Contact Information
+- **Address**: Gedung Wisma Barito Pacific Tower A, Lt. 7 Jl. Let Jend S. Parman Kav. 62-63, RT.008 RW.004, Slipi Palmerah, Jakarta Barat, DKI Jakarta - 11410
+- **Phone**: (021) 5307950
+- **Email**: corporatesecretary@capcx.com
+- **Website**: [www.chandra-asri.com](http://www.chandra-asri.com)
+
+2025-04-30T13:41:03.998111
+
+
